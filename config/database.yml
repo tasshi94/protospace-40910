@@ -8,7 +8,7 @@ development:
   username: root
   password:
   host: localhost
-  database: protospace-40910_development
+  database: protospace_40910_development
 
 test:
   <<: *default
@@ -16,7 +16,7 @@ test:
   username: root
   password:
   host: localhost
-  database: protospace-40910_test
+  database: protospace_40910_test
 
 production:
   <<: *default
